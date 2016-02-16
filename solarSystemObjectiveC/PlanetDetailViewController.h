@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  PlanetDetailViewController.h
 //  solarSystemObjectiveC
 //
 //  Created by Jay Maloney on 11/30/15.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@class Planet;
 
+@interface PlanetDetailViewController : UIViewController
+
+@property (nonatomic, strong) Planet *planet;
 
 @end
-

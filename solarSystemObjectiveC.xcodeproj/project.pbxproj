@@ -9,10 +9,13 @@
 /* Begin PBXBuildFile section */
 		E61690CB1C0CBD67001ECA40 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E61690CA1C0CBD67001ECA40 /* main.m */; };
 		E61690CE1C0CBD67001ECA40 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E61690CD1C0CBD67001ECA40 /* AppDelegate.m */; };
-		E61690D11C0CBD67001ECA40 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E61690D01C0CBD67001ECA40 /* ViewController.m */; };
 		E61690D41C0CBD67001ECA40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E61690D21C0CBD67001ECA40 /* Main.storyboard */; };
 		E61690D61C0CBD67001ECA40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E61690D51C0CBD67001ECA40 /* Assets.xcassets */; };
 		E61690D91C0CBD67001ECA40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E61690D71C0CBD67001ECA40 /* LaunchScreen.storyboard */; };
+		E61690E21C0CBDE7001ECA40 /* Planet.m in Sources */ = {isa = PBXBuildFile; fileRef = E61690E11C0CBDE7001ECA40 /* Planet.m */; };
+		E61690E51C0CC52C001ECA40 /* PlanetController.m in Sources */ = {isa = PBXBuildFile; fileRef = E61690E41C0CC52C001ECA40 /* PlanetController.m */; };
+		E61690E81C0CC8B4001ECA40 /* PlanetListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E61690E71C0CC8B4001ECA40 /* PlanetListViewController.m */; };
+		E61690EB1C0CCFEE001ECA40 /* PlanetDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E61690EA1C0CCFEE001ECA40 /* PlanetDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +23,18 @@
 		E61690CA1C0CBD67001ECA40 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E61690CC1C0CBD67001ECA40 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E61690CD1C0CBD67001ECA40 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E61690CF1C0CBD67001ECA40 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E61690D01C0CBD67001ECA40 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E61690D31C0CBD67001ECA40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E61690D51C0CBD67001ECA40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E61690D81C0CBD67001ECA40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E61690DA1C0CBD67001ECA40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E61690E01C0CBDE7001ECA40 /* Planet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Planet.h; sourceTree = "<group>"; };
+		E61690E11C0CBDE7001ECA40 /* Planet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Planet.m; sourceTree = "<group>"; };
+		E61690E31C0CC52C001ECA40 /* PlanetController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlanetController.h; sourceTree = "<group>"; };
+		E61690E41C0CC52C001ECA40 /* PlanetController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlanetController.m; sourceTree = "<group>"; };
+		E61690E61C0CC8B4001ECA40 /* PlanetListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlanetListViewController.h; sourceTree = "<group>"; };
+		E61690E71C0CC8B4001ECA40 /* PlanetListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlanetListViewController.m; sourceTree = "<group>"; };
+		E61690E91C0CCFEE001ECA40 /* PlanetDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlanetDetailViewController.h; sourceTree = "<group>"; };
+		E61690EA1C0CCFEE001ECA40 /* PlanetDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlanetDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,13 +69,19 @@
 			children = (
 				E61690CC1C0CBD67001ECA40 /* AppDelegate.h */,
 				E61690CD1C0CBD67001ECA40 /* AppDelegate.m */,
-				E61690CF1C0CBD67001ECA40 /* ViewController.h */,
-				E61690D01C0CBD67001ECA40 /* ViewController.m */,
 				E61690D21C0CBD67001ECA40 /* Main.storyboard */,
 				E61690D51C0CBD67001ECA40 /* Assets.xcassets */,
 				E61690D71C0CBD67001ECA40 /* LaunchScreen.storyboard */,
 				E61690DA1C0CBD67001ECA40 /* Info.plist */,
 				E61690C91C0CBD67001ECA40 /* Supporting Files */,
+				E61690E01C0CBDE7001ECA40 /* Planet.h */,
+				E61690E11C0CBDE7001ECA40 /* Planet.m */,
+				E61690E31C0CC52C001ECA40 /* PlanetController.h */,
+				E61690E41C0CC52C001ECA40 /* PlanetController.m */,
+				E61690E61C0CC8B4001ECA40 /* PlanetListViewController.h */,
+				E61690E71C0CC8B4001ECA40 /* PlanetListViewController.m */,
+				E61690E91C0CCFEE001ECA40 /* PlanetDetailViewController.h */,
+				E61690EA1C0CCFEE001ECA40 /* PlanetDetailViewController.m */,
 			);
 			path = solarSystemObjectiveC;
 			sourceTree = "<group>";
@@ -150,9 +165,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E61690D11C0CBD67001ECA40 /* ViewController.m in Sources */,
 				E61690CE1C0CBD67001ECA40 /* AppDelegate.m in Sources */,
+				E61690E51C0CC52C001ECA40 /* PlanetController.m in Sources */,
+				E61690E81C0CC8B4001ECA40 /* PlanetListViewController.m in Sources */,
 				E61690CB1C0CBD67001ECA40 /* main.m in Sources */,
+				E61690E21C0CBDE7001ECA40 /* Planet.m in Sources */,
+				E61690EB1C0CCFEE001ECA40 /* PlanetDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
